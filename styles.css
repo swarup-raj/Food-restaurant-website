@@ -1,0 +1,46 @@
+body {
+    background-image: url('background.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    margin: 100;
+    padding: 100;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 200px;
+    color: #ffffff;
+    animation: fadeInUp 1s ease-in-out; /* Apply fadeInUp animation */
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .navbar {
+    background-color: #ffcc80; /* Light Orange Color */
+  }
+  
+  .navbar-brand {
+    font-size: 2.5rem; /* Increase font size for the navbar brand */
+    color: #ffffff;
+  }
+  
+  .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838;
+    border-color: #218838;
+  }
+  
